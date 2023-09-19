@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+article{
+    padding: 50px;
+    padding-bottom:200px;
+    text-align: left;
+}
+
+img{
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 5px solid gray;
+    margin-right:100px;
+}
+
+.separator{
+    border: 1px solid lightgray;
+    margin-left: 10px;
+    margin-right: 10px;
+}

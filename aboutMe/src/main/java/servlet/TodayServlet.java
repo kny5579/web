@@ -25,11 +25,12 @@ public class TodayServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println("<html>");
 		out.println("<head><title>time</title></head>");
+		out.println("<link rel='stylesheet' href='./css/servlet.css'>");
 		out.println("<body>");
 		
 		out.println("<a href='index.html'> 메인화면 </a>");
 		
-		String time=LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy/mm/dd HH:mm"));
+		String time=LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm"));
 		out.println("<h1 class='timenow'> 현재시간 : "+time+"</h1>");	
 		
 		out.println("</body>");

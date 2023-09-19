@@ -1,0 +1,56 @@
+body{
+    background-color: #EEFF;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+.area{
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+header .area{
+    padding: 2px;
+    padding-right: 20px;
+}
+
+section .area{
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.foot{
+    color:gray;
+    font-size: 12px;
+    line-height: 5px;
+    padding: 10px;
+}
+
+nav ul {
+    padding: 0.3125rem;
+    overflow: hidden;
+}
+
+nav li {
+    box-shadow: 0.125rem 0.125rem 0.1875rem 0.0625rem rgba(0, 0, 0, 0.36);
+    box-sizing: border-box;
+    list-style: none;
+    background-color: #8FBBC6;
+    float: left;
+    margin-left: 0.625rem;
+}
+
+.header-nav li{
+    width: 100px;
+    height: 25px;
+    text-align: center;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: flex-end;
+}

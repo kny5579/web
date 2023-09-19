@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+article{
+    padding: 10px;
+    padding-left: 100px;
+    padding-right:100px;
+    text-align: left;
+}
+
+h1{
+    margin-bottom: 5px;
+}
+
+p{
+    margin-top: 5px;
+}
+.contents p{
+    margin-bottom: 5px;
+}
